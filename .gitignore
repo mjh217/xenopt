@@ -1,0 +1,11 @@
+# Local files, not published
+private/
+
+__pycache__/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+
+# Local runs on AusXenos for Hoggard et al. (2026), used by the paper figures. The README shows
+# how to reproduce them from the AusXenos GitHub release.
+australia/

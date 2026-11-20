@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xenopt"
+version = "2026.11"
+description = "P-T estimates for mantle xenoliths from mineral geochemistry"
+authors = [{ name = "Mark Hoggard" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+xenopt = "xenopt.cli:main"
+
+[tool.setuptools]
+packages = ["xenopt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

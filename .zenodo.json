@@ -1,0 +1,24 @@
+{
+  "title": "xenoPT: Thermobarometry for mantle xenoliths and xenocrysts",
+  "upload_type": "software",
+  "description": "<p>xenoPT computes equilibration pressure-temperature (P-T) estimates for mantle xenoliths and xenocrysts from mineral major-element chemistry, using published thermometers and barometers. It solves any thermometer-barometer pair iteratively, checks which blank oxides each calibration requires, and applies the clinopyroxene suitability tests of Ziberna et al. (2016) and Sudholz et al. (2021) and the orthopyroxene-garnet checks of Nimis &amp; Grutter (2010), reporting any failures as plain-language warnings. Each formula was checked against its original publication.</p><p>This code was developed as part of Geoscience Australia's <em>Resourcing Australia's Prosperity</em> initiative and accompanies Hoggard et al. (2026), <em>Paleothermal structure of the Australian continental lithosphere</em>, Geochemistry, Geophysics, Geosystems.</p>",
+  "creators": [
+    {
+      "name": "Hoggard, Mark J.",
+      "affiliation": "Research School of Earth Sciences, Australian National University",
+      "orcid": "0000-0003-4310-3862"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "thermobarometry",
+    "geothermometry",
+    "geobarometry",
+    "xenolith",
+    "xenocryst",
+    "mantle",
+    "lithosphere",
+    "mineral chemistry"
+  ]
+}
