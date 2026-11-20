@@ -1,5 +1,7 @@
 # xenoPT
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24386935.svg)](https://doi.org/10.5281/zenodo.24386935)
+
 Compute equilibration pressure-temperature (P-T) estimates using published thermobarometers for mantle xenoliths from mineral major-element geochemistry. This code was developed as part of Geoscience Australia's [*Resourcing Australia's Prosperity*](https://www.ga.gov.au/scientific-topics/resourcing-australias-prosperity) initiative (eCat record 151570).
 
 ## Usage
@@ -457,6 +459,8 @@ If you use xenoPT, please cite:
 > Hoggard, M. J., Sudholz, Z. J., Hawkins, R., Duvernay, T., Bagchi, S., Richards, F. D., Jaques, A. L., Yaxley, G. M., Czarnota, K., & Haynes, M. (2026). Paleothermal structure of the Australian continental lithosphere. *Geochemistry, Geophysics, Geosystems* (accepted).
 
 Please also cite the original papers of the thermobarometers you use.
+
+Each release of xenoPT is archived on Zenodo at [10.5281/zenodo.24386935](https://doi.org/10.5281/zenodo.24386935), which always resolves to the latest version; each release also has its own DOI (v2026.11: [10.5281/zenodo.24386936](https://doi.org/10.5281/zenodo.24386936)).
 
 ## Licence
 
